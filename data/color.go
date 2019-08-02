@@ -1,9 +1,5 @@
 package data
 
-import (
-	"fmt"
-)
-
 type Color int
 
 const (
@@ -15,11 +11,11 @@ const (
 func (color Color) String() string {
 	switch color {
 	case Black:
-		return fmt.Sprintf("Black")
+		return "Black"
 	case White:
-		return fmt.Sprintf("White")
+		return "White"
 	case Empty:
-		return fmt.Sprintf("")
+		return ""
 	}
 	return ""
 }

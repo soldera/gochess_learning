@@ -17,19 +17,19 @@ const (
 func (pieceType PieceType) String() string {
 	switch pieceType {
 	case EmptyPiece:
-		return fmt.Sprintf("")
+		return ""
 	case King:
-		return fmt.Sprintf("King")
+		return "King"
 	case Queen:
-		return fmt.Sprintf("Queen")
+		return "Queen"
 	case Rook:
-		return fmt.Sprintf("Rook")
+		return "Rook"
 	case Bishop:
-		return fmt.Sprintf("Bishop")
+		return "Bishop"
 	case Knight:
-		return fmt.Sprintf("Knight")
+		return "Knight"
 	case Pawn:
-		return fmt.Sprintf("Pawn")
+		return "Pawn"
 	}
 	return ""
 }
